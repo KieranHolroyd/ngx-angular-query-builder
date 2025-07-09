@@ -9,7 +9,7 @@
 
   .q-remove-icon {
     &::before {
-      content: "❌";
+      content: '❌';
     }
   }
 
@@ -27,14 +27,14 @@
 
   .q-arrow-icon {
     &::before {
-      content: "▶";
+      content: '▶';
     }
   }
 
   .q-add-icon {
     color: #555;
     &::before {
-      content: "➕";
+      content: '➕';
     }
   }
 
@@ -45,7 +45,7 @@
 
   .q-switch-group,
   .q-button-group {
-    font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
     overflow: hidden;
   }
 
@@ -92,7 +92,7 @@
   .q-operator-control,
   .q-field-control,
   .q-entity-control,
-  .q-input-control:not([type="checkbox"]) {
+  .q-input-control:not([type='checkbox']) {
     min-height: 32px;
     -webkit-appearance: none;
   }
@@ -208,7 +208,7 @@
 
     &::before,
     &::after {
-      content: "";
+      content: '';
       left: -12px;
       border-color: #ccc;
       border-style: solid;
